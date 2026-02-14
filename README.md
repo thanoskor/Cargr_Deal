@@ -25,7 +25,7 @@ This project combines web scraping, machine learning, and automated monitoring t
 └── seen_deals.txt         # Persistent log of notified listings
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 1. **Get Pushover credentials** (for notifications):
    - Sign up at [pushover.net](https://pushover.net)
@@ -35,7 +35,7 @@ This project combines web scraping, machine learning, and automated monitoring t
    - Run all cells in `project.ipynb` to scrape data and train models
    - Models are saved automatically to `models/` directory
 
-## 🏃 Usage
+## Usage
 
 ### Train Models
 ```python
@@ -93,3 +93,4 @@ Profit: 1250€
 - Active Pushover account
 - Internet connection
 - Chrome/Chromium browser (for DrissionPage)
+
